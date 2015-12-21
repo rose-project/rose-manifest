@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="rose" fetch="git://github.com/rose-project" />
+    <remote name="qt5" fetch="git://github.com/meta-qt5" />
+    <remote name="oe" fetch="git://git.openembedded.org" />
+    <remote name="yocto" fetch="git://git.yoctoproject.org" />
+    <default remote="rose" revision="master" />
+
+    <project name="poky" remote="yocto" revision="6e3eefb997063971801bea933f319bb428b33fa5" upstream="refs/heads/fido" />
+    <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" revision="df2f700d66bace65f5d802225232d01cf511fe81" upstream="refs/heads/fido" />
+    <project name="meta-raspberrypi-bsp" path="poky/meta-raspberrypi-bsp" remote="rose" upstream="master" />
+    <project name="meta-rose" path="poky/meta-rose" remote="rose" upstream="master" />
+    <project name="meta-villa" path="poky/meta-villa" remote="rose" upstream="master" />
+    <project name="rosebreeder" path="scripts" remote="rose" upstream="master" />
+    
+</manifest>
