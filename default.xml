@@ -9,9 +9,9 @@
 
     <project name="poky" remote="yocto" upstream="refs/heads/fido" revision="6e3eefb997063971801bea933f319bb428b33fa5" />
     <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" upstream="refs/heads/fido" revision="df2f700d66bace65f5d802225232d01cf511fe81" />
-    <project name="meta-raspberrypi-bsp" path="poky/meta-raspberrypi-bsp" remote="rose" upstream="master"  revision="e29c5c83e011d3c6e46bcf2c21124ca46f6fb51f" />
-    <project name="meta-rose" path="poky/meta-rose" remote="rose" upstream="master" revision="60c3fff1ffb29419b6497a23ce687348a3ce94eb" />
-    <project name="meta-villa" path="poky/meta-villa" remote="rose" upstream="master" revision="0a98755a32a7c240716222030a914cdb159cefe2" />
+    <project name="meta-raspberrypi-bsp" path="poky/meta-raspberrypi-bsp" remote="rose" upstream="master" />
+    <project name="meta-rose" path="poky/meta-rose" remote="rose" upstream="master" />
+    <project name="meta-villa" path="poky/meta-villa" remote="rose" upstream="master" />
     <project name="rosebreeder" path="scripts" remote="rose" upstream="master" /> <!-- sync always to head... for the moment -->
     
 </manifest>
