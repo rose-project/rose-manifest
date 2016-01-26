@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="rose" fetch="git://github.com/rose-project" />
+    <remote name="rose" fetch="ssh://git@github.com/rose-project" />
     <remote name="qt5" fetch="git://github.com/meta-qt5" />
     <remote name="oe" fetch="git://git.openembedded.org" />
     <remote name="yocto" fetch="git://git.yoctoproject.org" />
-    <default remote="rose" revision="master" />
+    <default remote="rose" revision="refs/heads/master" />
 
     <project name="poky" remote="yocto" upstream="refs/heads/jethro" />
     <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" upstream="refs/heads/jethro" />
