@@ -5,14 +5,14 @@
     <remote name="qt5" fetch="git://github.com/meta-qt5" />
     <remote name="oe" fetch="git://git.openembedded.org" />
     <remote name="yocto" fetch="git://git.yoctoproject.org" />
-    <default remote="rose" revision="refs/heads/master" />
+    <default remote="rose" revision="master" upstream="master"  />
 
-    <project name="poky" remote="yocto" upstream="refs/heads/jethro" />
-    <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" upstream="refs/heads/jethro" />
-    <project name="meta-raspberrypi-bsp" path="poky/meta-raspberrypi-bsp" remote="rose" upstream="master" />
-    <project name="meta-qt5" path="poky/meta-qt5" remote="qt5" upstream="refs/heads/jethro" />
-    <project name="meta-rose" path="poky/meta-rose" remote="rose" upstream="master" />
-    <project name="meta-villa" path="poky/meta-villa" remote="rose" upstream="master" />
-    <project name="rosebreeder" path="scripts" remote="rose" upstream="master" /> <!-- sync always to head... for the moment -->
+    <project name="poky" remote="yocto" revision="jethro" />
+    <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" revision="jethro" />
+    <project name="meta-raspberrypi-bsp" path="poky/meta-raspberrypi-bsp" remote="rose" />
+    <project name="meta-qt5" path="poky/meta-qt5" remote="qt5" revision="jethro" />
+    <project name="meta-rose" path="poky/meta-rose" remote="rose" />
+    <project name="meta-villa" path="poky/meta-villa" remote="rose" />
+    <project name="rosebreeder" path="scripts" remote="rose" /> <!-- sync always to head... for the moment -->
     
 </manifest>
