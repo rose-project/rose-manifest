@@ -7,7 +7,7 @@
     <remote name="yocto" fetch="git://git.yoctoproject.org" />
     <default remote="rose" revision="master" upstream="master"  />
 
-    <project name="poky" remote="yocto" revision="jethro" />
+    <project name="poky" remote="yocto" revision="3072361f863b73dd452a2e80fdcc3c7d3dbc9fdc" />
     <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" revision="jethro" />
     <project name="meta-raspberrypi-bsp" path="poky/meta-raspberrypi-bsp" remote="rose" />
     <project name="meta-qt5" path="poky/meta-qt5" remote="qt5" revision="jethro" />
