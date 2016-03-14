@@ -12,7 +12,8 @@
     <project name="meta-raspberrypi-bsp" path="poky/meta-raspberrypi-bsp" remote="rose" />
     <project name="meta-qt5" path="poky/meta-qt5" remote="qt5" revision="jethro" />
     <project name="meta-rose" path="poky/meta-rose" remote="rose" />
+    <project name="meta-gadgets" path="poky/meta-gadgets" remote="rose" />
     <project name="meta-villa" path="poky/meta-villa" remote="rose" />
     <project name="rosebreeder" path="scripts" remote="rose" /> <!-- sync always to head... for the moment -->
-    
+
 </manifest>
