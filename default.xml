@@ -8,6 +8,7 @@
     <default remote="rose" revision="master" upstream="master"  />
 
     <project name="poky" remote="yocto" revision="3c66619d50921a17b911f99f095baac3a049cad3" />
+	 <project name="meta-java" path="poky/meta-java" remote="yocto" revision="efc3daa7526a5ae5aad24a0f777d2274aab3d5c3" />
     <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" revision="jethro" />
     <project name="meta-raspberrypi-bsp" path="poky/meta-raspberrypi-bsp" remote="rose" />
     <project name="meta-qt5" path="poky/meta-qt5" remote="qt5" revision="jethro" />
